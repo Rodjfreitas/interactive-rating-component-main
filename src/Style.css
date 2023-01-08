@@ -1,0 +1,100 @@
+html{font-family: 'Overpass', sans-serif; background-color:hsl(216, 12%, 8%) ;}
+main{margin: 15em 30em;}
+.Card{  
+    width: 400px;
+    height:450px ;
+    padding: 40px; 
+    padding-top: 40px; 
+    background-color: #252d37;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.Card h1{
+    font-weight: 700px;
+    color: #ffffff;
+}
+
+.Card p{
+    justify-content: center;
+    font-weight: 400px;
+    color: #7c8798;
+    font-size: 18px;
+}
+
+.figura{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background-color:hsl(213, 30%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.image{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.numbers{
+    display: flex;
+    
+    
+}
+
+.numbers p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 60px;
+    text-align: center;    
+    background: hsl(213, 30%, 22%) ;
+    margin-right: 20px;
+    border-radius: 50px;
+    color: #7c8798;
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+.numbers p:hover{
+    cursor: pointer;
+    background-color: #fb7413;
+    color: #ffffff;
+}
+
+.Submit{
+    height: 60px;
+    background-color:#ffffff ;
+    border-radius: 40px;
+}
+
+.Submit p{
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 700px;
+    color: #fb7413;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Submit:hover{
+    cursor: pointer;
+    background-color: #fb7413;
+    
+}
+
+.Submit p:hover{
+    color: #ffffff;
+}
+
+    .attribution { font-size: 11px; text-align: center; color: #7c8798;}
+    .attribution a { color: hsl(228, 45%, 44%); }
