@@ -96,5 +96,44 @@ main{margin: 15em 30em;}
     color: #ffffff;
 }
 
+
+.figura2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.image2{
+    width: 200px;
+    
+}
+
+.Selected{
+    width: 240px;  
+    margin: auto;  
+    background-color: hsl(213, 30%, 22%);
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.Selected p{
+    color: #fb7413;
+}
+
+.thanks,.thanksp{
+    text-align: center;
+}
+
+.thanksp p{
+    font-size: 17.5px;
+}
+
     .attribution { font-size: 11px; text-align: center; color: #7c8798;}
     .attribution a { color: hsl(228, 45%, 44%); }
