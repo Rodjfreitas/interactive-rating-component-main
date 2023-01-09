@@ -65,8 +65,13 @@ main{margin: 15em 30em;}
 
 .numbers p:hover{
     cursor: pointer;
-    background-color: #fb7413;
+    background-color:#7c8798;
     color: #ffffff;
+    transform: translateY(-5px);
+}
+
+.numbers p:checked{
+    background-color: #fb7413;
 }
 
 .Submit{
