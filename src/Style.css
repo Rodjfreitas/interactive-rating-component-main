@@ -70,7 +70,7 @@ main{margin: 15em 30em;}
     transform: translateY(-5px);
 }
 
-.numbers p:checked{
+.numbers p:active{        
     background-color: #fb7413;
 }
 
