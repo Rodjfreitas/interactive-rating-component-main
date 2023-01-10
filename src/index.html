@@ -14,6 +14,8 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
+
+
 </head>
 <body>
   <main>
@@ -31,17 +33,15 @@
       to help us improve our offering!</p>
 
       <div class="numbers">
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
-        <p>4</p>
-        <p>5</p>
+        <p class="avaliacao">1</p>
+        <p class="avaliacao">2</p>
+        <p class="avaliacao">3</p>
+        <p class="avaliacao">4</p>
+        <p class="avaliacao">5</p>
       
       </div>
 
-      <div class="Submit">
-        <p>Submit</p>
-      </div>
+      <button class="Submit">Submit</button>
     
     </div>
 
@@ -74,10 +74,18 @@
     </div>
 
 
-    <script src="jquery-3.2.1.min.js"></script>
+    
     <script>
 
+      document.getElementsByClassName("avaliacao").
+      addEventListener("click",function(){
+        document.getElementsByClassName("avaliacao").style.backgroundColor ='#fb7413';
+        
+      })
+
     </script>
+
+
   
 </body>
 </html>

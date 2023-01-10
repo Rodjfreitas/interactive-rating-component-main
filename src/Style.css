@@ -70,24 +70,19 @@ main{
     font-size: 20px;
 }
 
-#Card .numbers p:hover{
+#Card .numbers .avaliacao:hover{
     cursor: pointer;
     background-color:#7c8798;
     color: #ffffff;
     transform: translateY(-5px);
 }
 
-#Card .numbers p:active{        
-    background-color: #fb7413;
-}
 
-#Card .Submit{
+.Submit{
+    width: 100%;
     height: 60px;
     background-color:#ffffff ;
     border-radius: 40px;
-}
-
-#Card .Submit p{
     text-align: center;
     padding: 15px;
     font-size: 30px;
@@ -98,14 +93,13 @@ main{
     align-items: center;
 }
 
-#Card .Submit:hover{
+
+
+.Submit:hover{
     cursor: pointer;
     background-color: #fb7413;
+    color: #FFF;
     
-}
-
-#Card .Submit p:hover{
-    color: #ffffff;
 }
 
 
@@ -145,6 +139,12 @@ main{
 
 #Card2 p{
     font-size: 17.5px;
+}
+
+
+.avaliacao{
+    background-color:#fb7413;
+    color: #ffffff;
 }
 
     .attribution { font-size: 11px; text-align: center; color: #7c8798;}
