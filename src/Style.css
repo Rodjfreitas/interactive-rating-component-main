@@ -3,7 +3,7 @@ main{
     margin: 15em 30em auto;
 }
 
-#Card{  
+#Card, #Card2{  
     width: 400px;
     height:450px ;
     padding: 40px; 
@@ -14,12 +14,12 @@ main{
     border-radius: 50px;
 }
 
-#Card h1{
+#Card h1, #Card2 h1{
     font-weight: 700px;
     color: #ffffff;
 }
 
-#Card p{
+#Card p, #Card2 p{
     justify-content: center;
     font-weight: 400px;
     color: #7c8798;
@@ -105,7 +105,7 @@ main{
 }
 
 
-#Card .figura2{
+#Card2 .figura2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,12 +113,12 @@ main{
     margin-top: 20px;
 }
 
-#Card .image2{
+#Card2 .image2{
     width: 200px;
     
 }
 
-#Card .Selected{
+#Card2 .Selected{
     width: 240px;  
     margin: auto;  
     background-color: hsl(213, 30%, 22%);
@@ -135,11 +135,11 @@ main{
     color: #fb7413;
 }
 
-#Card .thanks,.thanksp{
+#Card2 h1,.thanksp{
     text-align: center;
 }
 
-#Card .thanksp p{
+#Card2 p{
     font-size: 17.5px;
 }
 
