@@ -1,5 +1,8 @@
 html{font-family: 'Overpass', sans-serif; background-color:hsl(216, 12%, 8%) ;}
-main{margin: 15em 30em;}
+main{
+    margin: 15em 30em auto;
+}
+
 .Card{  
     width: 400px;
     height:450px ;
