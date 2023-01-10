@@ -133,7 +133,7 @@ nav ul li button:hover{
 }
 
 
-#Card2 .figura2{
+.figura2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,12 +141,12 @@ nav ul li button:hover{
     margin-top: 20px;
 }
 
-#Card2 .image2{
+.image2{
     width: 200px;
     
 }
 
-#Card2 .Selected{
+.Selected{
     width: 240px;  
     margin: auto;  
     background-color: hsl(213, 30%, 22%);
@@ -159,7 +159,7 @@ nav ul li button:hover{
     margin-bottom: 40px;
 }
 
-#Card .Selected p{
+.Selected p{
     color: #fb7413;
 }
 
