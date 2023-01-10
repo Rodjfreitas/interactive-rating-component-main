@@ -61,7 +61,8 @@ main{
     display: flex;    
     text-align: left;
     height: 50px;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
+    margin-top: -25px;
     
     
     
@@ -71,10 +72,10 @@ main{
     list-style-type: none;        
     cursor: pointer;
     color: #fb7413;
-    font-size: 80px;
-    margin-top: -10px;    
+    font-size: 80px;      
     text-align: center;
     margin: auto;
+    
 }
 
 .star-icon::before{    
