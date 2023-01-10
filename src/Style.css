@@ -3,7 +3,7 @@ main{
     margin: 15em 30em auto;
 }
 
-.Card{  
+#Card{  
     width: 400px;
     height:450px ;
     padding: 40px; 
@@ -14,19 +14,19 @@ main{
     border-radius: 50px;
 }
 
-.Card h1{
+#Card h1{
     font-weight: 700px;
     color: #ffffff;
 }
 
-.Card p{
+#Card p{
     justify-content: center;
     font-weight: 400px;
     color: #7c8798;
     font-size: 18px;
 }
 
-.figura{
+#Card .figura{
     width: 50px;
     height: 50px;
     padding: 5px;
@@ -39,19 +39,19 @@ main{
     
 }
 
-.image{
+#Card .image{
     width: 20px;
     height: 20px;
     
 }
 
-.numbers{
+#Card .numbers{
     display: flex;
     
     
 }
 
-.numbers p{
+#Card .numbers p{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,24 +66,24 @@ main{
     font-size: 20px;
 }
 
-.numbers p:hover{
+#Card .numbers p:hover{
     cursor: pointer;
     background-color:#7c8798;
     color: #ffffff;
     transform: translateY(-5px);
 }
 
-.numbers p:active{        
+#Card .numbers p:active{        
     background-color: #fb7413;
 }
 
-.Submit{
+#Card .Submit{
     height: 60px;
     background-color:#ffffff ;
     border-radius: 40px;
 }
 
-.Submit p{
+#Card .Submit p{
     text-align: center;
     padding: 15px;
     font-size: 30px;
@@ -94,18 +94,18 @@ main{
     align-items: center;
 }
 
-.Submit:hover{
+#Card .Submit:hover{
     cursor: pointer;
     background-color: #fb7413;
     
 }
 
-.Submit p:hover{
+#Card .Submit p:hover{
     color: #ffffff;
 }
 
 
-.figura2{
+#Card .figura2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,12 +113,12 @@ main{
     margin-top: 20px;
 }
 
-.image2{
+#Card .image2{
     width: 200px;
     
 }
 
-.Selected{
+#Card .Selected{
     width: 240px;  
     margin: auto;  
     background-color: hsl(213, 30%, 22%);
@@ -131,15 +131,15 @@ main{
     margin-bottom: 40px;
 }
 
-.Selected p{
+#Card .Selected p{
     color: #fb7413;
 }
 
-.thanks,.thanksp{
+#Card .thanks,.thanksp{
     text-align: center;
 }
 
-.thanksp p{
+#Card .thanksp p{
     font-size: 17.5px;
 }
 
