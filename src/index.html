@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   
-  
+  <link rel="stylesheet" href="js/javascript.js">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="Style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
@@ -32,15 +32,15 @@
       <p>Please let us know how we did with your support request. All feedback is appreciated 
       to help us improve our offering!</p>
       
-      <nav id="avaliacao">
+      
         <ul class="avaliacao">
-          <li><button class="rating ativo" data-avaliacao="1">1</button></li>
-          <li><button class="rating" data-avaliacao="2">2</button></li>
-          <li><button class="rating" data-avaliacao="3">3</button></li>
-          <li><button class="rating" data-avaliacao="4">4</button></li>
-          <li><button class="rating" data-avaliacao="5">5</button></li>
+          <li class="star-icon ativo" data-avaliacao="1"></li>
+          <li class="star-icon" data-avaliacao="2"></li>
+          <li class="star-icon" data-avaliacao="3"></li>
+          <li class="star-icon" data-avaliacao="4"></li>
+          <li class="star-icon" data-avaliacao="5"></li>
         </ul>
-      </nav>
+      
 
 
       <button class="Submit-btn">Submit</button>
@@ -76,7 +76,21 @@
     </div>
 
 
-    
+    <script>
+      var stars = document.querySelectorAll('.star-icon');
+
+      document.addEventListener('Click',function(e){
+        var classStar = e.target.classList;
+
+        if(!classStar.contains('ativo')){
+          stars.forEach(function(star){
+            star.classList.remove('ativo');
+          });
+          classStar.add('ativo');
+        }
+
+      });
+    </script>
     
 
 

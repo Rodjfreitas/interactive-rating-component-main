@@ -22,9 +22,7 @@ main{
     
 }
 
-.hide{
-    display: none;
-}
+
 
 #Card h1, #Card2 h1{
     font-weight: 700px;
@@ -57,49 +55,48 @@ main{
     
 }
 
-nav{
-    width: 89%;
-    
-    
-}
 
-nav ul{    
-    list-style-type: none;
+
+.avaliacao{   
     display: flex;    
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 70px;
+    text-align: left;
     
     
-
+    
 }
 
-nav ul li{
-    margin-right: 17px;    
-}
-
-nav ul li button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    font-size: 25px;
-    background-color: hsl(213, 30%, 22%) ;
-    border-style: none;
-    color: #7c8798;
-}
-
-nav ul li button:hover{
+.star-icon{ 
+    list-style-type: none;        
     cursor: pointer;
-    background-color:#7c8798;
-    transform: translateY(-7px);
-    color: #ffffff;
-    border-style: double;
-    border-width: 5px;
-    border-color: #FFF;
+    color: #fb7413;
+    font-size: 70px;
+    
+
+    
+    
+    
+    
+    
+    
+
 }
+
+.star-icon::before{    
+    content: "\2605";
+}
+
+.star-icon.ativo ~ .star-icon::before{
+    content: "\2606";
+}
+
+.avaliacao:hover .star-icon::before{
+    content: "\2605";
+}
+
+.star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+}
+
 
 
 
@@ -119,7 +116,7 @@ nav ul li button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 35px;
     border-style: none;
 }
 
