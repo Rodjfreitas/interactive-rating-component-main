@@ -17,7 +17,7 @@ main{
 }
 
 #Card2{
-    display: none;
+    display: block;
     
     
 }
@@ -58,11 +58,12 @@ main{
 }
 
 nav{
-    width: 93%;
+    width: 89%;
+    
     
 }
 
-ul{    
+nav ul{    
     list-style-type: none;
     display: flex;    
     margin: auto;
@@ -72,35 +73,32 @@ ul{
     margin-bottom: 30px;
     height: 70px;
     
+    
 
 }
 
-ul li{
-    margin-right: 22px;
-    
-    
+nav ul li{
+    margin-right: 17px;    
 }
 
-ul li button{
+nav ul li button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     font-size: 25px;
-    background: hsl(213, 30%, 22%) ;
+    background-color: hsl(213, 30%, 22%) ;
     border-style: none;
     color: #7c8798;
-
-    
-    
-    
-
 }
 
-ul li button:hover{
+nav ul li button:hover{
     cursor: pointer;
     background-color:#7c8798;
     transform: translateY(-7px);
-    color: #ffffff
+    color: #ffffff;
+    border-style: double;
+    border-width: 5px;
+    border-color: #FFF;
 }
 
 
@@ -174,10 +172,7 @@ ul li button:hover{
 }
 
 
-.avaliacao{
-    background-color:#fb7413;
-    color: #ffffff;
-}
+
 
     .attribution { font-size: 11px; text-align: center; color: #7c8798;}
     .attribution a { color: hsl(228, 45%, 44%); }
