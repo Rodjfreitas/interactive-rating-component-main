@@ -1,3 +1,5 @@
+
+
 html{font-family: 'Overpass', sans-serif; background-color:hsl(216, 12%, 8%) ;}
 main{
     margin: 15em 30em auto;
@@ -13,6 +15,8 @@ main{
     margin-bottom: 20px;
     border-radius: 50px;
 }
+
+#Card2{display: none;}
 
 #Card h1, #Card2 h1{
     font-weight: 700px;
