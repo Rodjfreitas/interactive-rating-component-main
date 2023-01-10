@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   
-  <link rel="stylesheet" href="js/javascript.js">
+  <script src="js/javascript.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="Style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
@@ -27,19 +27,19 @@
       <div class="figura">
         <img class="image" src="images/icon-star.svg" alt="Star">
       </div>
-      <h1>How did we do?</h1>
+      <h1 class="title">How did we do?</h1>
 
-      <p>Please let us know how we did with your support request. All feedback is appreciated 
+      <p class="text">Please let us know how we did with your support request. All feedback is appreciated 
       to help us improve our offering!</p>
       
       
-        <ul class="avaliacao">
-          <li class="star-icon ativo" data-avaliacao="1"></li>
-          <li class="star-icon" data-avaliacao="2"></li>
-          <li class="star-icon" data-avaliacao="3"></li>
-          <li class="star-icon" data-avaliacao="4"></li>
-          <li class="star-icon" data-avaliacao="5"></li>
-        </ul>
+        <div class="avaliacao">
+          <p class="star-icon ativo" data-avaliacao="1"></p>
+          <p class="star-icon" data-avaliacao="2"></p>
+          <p class="star-icon" data-avaliacao="3"></p>
+          <p class="star-icon" data-avaliacao="4"></p>
+          <p class="star-icon" data-avaliacao="5"></p>
+        </div>
       
 
 
@@ -57,10 +57,10 @@
         </div>
 
       <div class="Selected">
-      <p>You selected <!-- Add rating here --> out of 5</p>
+      <p class="text">You selected <!-- Add rating here --> out of 5</p>
       </div>
 
-    <h1>Thank you!</h1>
+    <h1 class="title">Thank you!</h1>
 
     <div class="thanksp">
       <p>We appreciate you taking the time to give a rating. If you ever need more support, 
@@ -70,27 +70,25 @@
     <!-- Thank you state end -->
 
   
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Rodrigo Freitas</a>.
-    </div>
+    </footer>
 
 
-    <script>
-      var stars = document.querySelectorAll('.star-icon');
+<script>
+  var stars = document.querySelectorAll('.star-icon');
 
-      document.addEventListener('Click',function(e){
-        var classStar = e.target.classList;
-
-        if(!classStar.contains('ativo')){
-          stars.forEach(function(star){
-            star.classList.remove('ativo');
-          });
-          classStar.add('ativo');
-        }
-
+  document.addEventListener('Click',function(e){
+    var classStar = e.target.classList;
+    if(!classStar.contains('ativo')){
+      stars.forEach(function(star){
+        star.classList.remove('ativo');
       });
-    </script>
+      classStar.add('ativo')
+    }
+  });
+</script>
     
 
 

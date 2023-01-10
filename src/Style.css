@@ -2,7 +2,7 @@
 
 html{font-family: 'Overpass', sans-serif; background-color:hsl(216, 12%, 8%) ;}
 main{
-    margin: 15em 30em auto;
+    margin: 12em 30em auto;
 }
 
 #Card, #Card2{  
@@ -17,7 +17,7 @@ main{
 }
 
 #Card2{
-    display: block;
+    display: none;
     
     
 }
@@ -29,7 +29,7 @@ main{
     color: #ffffff;
 }
 
-#Card p, #Card2 p{
+#Card .text, #Card2 p{
     justify-content: center;
     font-weight: 400px;
     color: #7c8798;
@@ -60,6 +60,8 @@ main{
 .avaliacao{   
     display: flex;    
     text-align: left;
+    height: 50px;
+    margin-bottom: 90px;
     
     
     
@@ -69,16 +71,10 @@ main{
     list-style-type: none;        
     cursor: pointer;
     color: #fb7413;
-    font-size: 70px;
-    
-
-    
-    
-    
-    
-    
-    
-
+    font-size: 80px;
+    margin-top: -10px;    
+    text-align: center;
+    margin: auto;
 }
 
 .star-icon::before{    
@@ -170,6 +166,6 @@ main{
 
 
 
-
-    .attribution { font-size: 11px; text-align: center; color: #7c8798;}
+    
+    .attribution { font-size: 11px; text-align: center; color: #7c8798; margin-top: 50px;}
     .attribution a { color: hsl(228, 45%, 44%); }
