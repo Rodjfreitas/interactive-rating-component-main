@@ -48,11 +48,29 @@ h1{
 
 ul{
     display: flex;
+    background-color: #959eac;
+    justify-content: left;
     align-items: center;
+    margin-bottom: 24px;
+    height: 70px;
 }
 
 ul li{
+    margin: auto;
     list-style-type: none;
+    background-color:#262e38 ;
+    height: 48px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    position: relative;
+    left: -30px;
+    color: #959eac;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 
