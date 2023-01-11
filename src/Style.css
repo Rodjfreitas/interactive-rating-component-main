@@ -115,7 +115,8 @@ li:hover{
     color: #fff;
     border-style: none;
     transform: translateY(-6px);  
-    border-radius: 15px; 
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
      
 }
 
