@@ -18,6 +18,16 @@ main{
     
 }
 
+.Principal-Cartao{
+    display: block;
+}
+.Secundario-Cartao{
+    display: none;
+    
+}
+
+
+
 h1{
     color: #fff;
     font-weight: 800;
@@ -119,6 +129,7 @@ li:hover{
 }
 
 .Submit-btn:hover{
+    cursor: pointer;
     background-color: #fb7413;
     color: #fff;
     border-style: none

@@ -1,12 +1,11 @@
-var stars = document.querySelectorAll('.star-icon');
-                  
-                  document.addEventListener('click', function(e){
-                    var classStar = e.target.classList;
-                    if(!classStar.contains('ativo')){
-                      stars.forEach(function(star){
-                        star.classList.remove('ativo');
-                      });
-                      classStar.add('ativo');
-                      console.log(e.target.getAttribute('data-avaliacao'));
-                    }
-                  });
+var button = document.getElementsByClassName("Submit-btn");
+
+button.addEventListener('Click',function(e){
+  var Principal = document.getElementsByClassName("Principal-Cartao");
+  var Secundario = document.getElementsByClassName("Secundario-Cartao");
+
+  if(Secundario.style.display === 'none'){
+    Secundario.style.display === 'block'
+    Principal.style.display === 'none'
+  }
+});
