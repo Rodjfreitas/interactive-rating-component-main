@@ -18,9 +18,7 @@ main{
     
 }
 
-.Principal-Cartao{
-    display: block;
-}
+
 .Secundario-Cartao{
     display: none;
     
@@ -116,7 +114,16 @@ li:hover{
     background-color: #fb7413; 
     color: #fff;
     border-style: none;
-    transform: translateY(-6px);    
+    transform: translateY(-6px);  
+    border-radius: 15px; 
+     
+}
+
+li.ativo{
+    background-color: #7c8798; 
+    color: #fff;
+    border-style: none;
+    
 }
 
 .Submit-btn{

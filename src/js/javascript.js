@@ -1,11 +1,18 @@
-var button = document.getElementsByClassName("Submit-btn");
+const ratings = document.querySelectorAll('li');
+let ratingSelecionado; 
+console.log(ratings);
 
-button.addEventListener('Click',function(e){
-  var Principal = document.getElementsByClassName("Principal-Cartao");
-  var Secundario = document.getElementsByClassName("Secundario-Cartao");
-
-  if(Secundario.style.display === 'none'){
-    Secundario.style.display === 'block'
-    Principal.style.display === 'none'
+function SelecionarBotao(e){
+  if(ratingSelecionado !== undefined){
+    ratings[ratingSelecionado-1].classList.remove('ativo');
   }
+
+
+  e.target.classList.add('ativo');
+  ratingSelecionado = Number(e.target.innerText);
+  console.log(ratingSelecionado);
+}
+
+ratings.forEach(function(opt){
+  opt.addEventListener('click',SelecionarBotao);
 });
