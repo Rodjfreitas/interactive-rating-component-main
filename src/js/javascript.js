@@ -2,6 +2,7 @@ const ratings = document.querySelectorAll('li');
 const CardPrincipal = document.querySelector('.Principal-Cartao');
 const CardSecundario = document.querySelector('.Secundario-Cartao');
 const BotaoEnviar = document.querySelector('.Submit-btn');
+const Alerta = document.querySelector('.alerta');
 
 let ratingSelecionado; 
 
@@ -31,10 +32,9 @@ ratings.forEach(function(opt){
 function Enviar(){
     if(ratingSelecionado !== undefined){
       CardPrincipal.style.display = 'none';
-      CardSecundario.style.display = 'block';
-      
-      
+      CardSecundario.style.display = 'block';      
     }
+      Alerta.style.display = 'block';
 }
 
 

@@ -36,6 +36,13 @@ h1{
     margin: 30px 0 7px 0;
 }
 
+.alerta{
+    display: none;
+    text-align: center;
+    font-size: 12px;
+    color: #fb7413;
+}
+
 .title-thanks{
     display: flex;
     align-items: center;
