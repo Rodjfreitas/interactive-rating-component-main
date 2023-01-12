@@ -30,15 +30,17 @@ ratings.forEach(function(opt){
 
 function Enviar(){
     if(ratingSelecionado !== undefined){
-      CardSecundario.style.display = 'block';
       CardPrincipal.style.display = 'none';
-         
+      CardSecundario.style.display = 'block';
+      
+      
     }
 }
 
 
 
-  BotaoEnviar.addEventListener('Click',function());
+
+BotaoEnviar.addEventListener('click',Enviar);
  
 
 
