@@ -24,13 +24,6 @@ main{
     
 }
 
-.Secundario-Cartao Card{
-    display: block;
-}
-.Principal-Cartao Card{
-    display: none;
-}
-
 
 h1{
     color: #fff;
