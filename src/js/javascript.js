@@ -4,6 +4,7 @@ const CardSecundario = document.querySelector('.Secundario-Cartao');
 const BotaoEnviar = document.querySelector('.Submit-btn');
 const Alerta = document.querySelector('.alerta');
 
+
 let ratingSelecionado; 
 
 
@@ -16,15 +17,13 @@ function SelecionarBotao(e){
   //Define qual número foi selecionado e ativa estilização//
   e.target.classList.add('ativo');
   ratingSelecionado = Number(e.target.innerText);
-  
+  document.getElementById('valor').innerHTML = ratingSelecionado;
 }
 
 //Comando do clique//
 ratings.forEach(function(opt){
   opt.addEventListener('click',SelecionarBotao);
 });
-
-
 
 
 
