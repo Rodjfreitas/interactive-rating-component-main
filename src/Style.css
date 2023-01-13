@@ -179,7 +179,7 @@ li.ativo{
 
 
   
-    .attribution { font-size: 11px; text-align: center; color: #7c8798; margin-top: 50px;}
+    .attribution { font-size: 11px; text-align: center; color: #7c8798; margin-top: -90px;}
     .attribution a { color: hsl(228, 45%, 44%); }
 
 
@@ -207,9 +207,14 @@ li.ativo{
             border-bottom-right-radius: 6px;
         }
 
-        
+        .attribution { margin-top: 50px;}
     }
 
+
+    @media screen and (max-width: 540px) {
+        .attribution { margin-top: -40px;
+        } 
+    }
 
 
   
