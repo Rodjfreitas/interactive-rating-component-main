@@ -167,6 +167,12 @@ li.ativo{
     color: #fb7413;
 }
 
+#valor{
+    color: #fb7413;
+    font-size: 20px;
+    font-weight: 800;
+}
+
 .Selected2{
     text-align: center;
 }
