@@ -1,8 +1,9 @@
 # Frontend Mentor - Interactive rating component
 
 Este desafio foi retirado da página Frontend Mentor. O objetivo é construir uma página de avaliação, onde o usuários se 
-depara com um questionário de 1 à 5, para que avalie.
+deparão com um questionário de 1 à 5, para que avalie.
 Realizei algumas mudanças estéticas do projeto original, mas mantive todas as funcionalidades.
+
 
 
 🎞️
@@ -15,6 +16,7 @@ página principal:
 
 ![Main](https://user-images.githubusercontent.com/119018022/212472525-41a130d6-38f5-4724-a653-c95429232851.jpeg)
 
+🖥️
 página de agradecimento:
 
 ![Thanks](https://user-images.githubusercontent.com/119018022/212472532-180b82c8-8126-4b43-96dd-8b6584036f5f.jpeg)
