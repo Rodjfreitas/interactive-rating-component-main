@@ -216,5 +216,34 @@ li.ativo{
         } 
     }
 
+    @media screen and (max-width: 280px) {
+        main{
+            width: 250px;
+            padding: 15px;
+            margin: 15% auto;            
+        }
+
+        .Principal-Cartao h1{
+            margin: 20px 0 7px 0;
+        }
+
+        h1{
+            font-weight: 800;
+            line-height:35px;
+            font-size: 24px;
+        }
+
+        li{            
+            height: 25px;
+            width: 25px;           
+            font-size: 12px;
+        }
+
+        .texto{            
+            font-size: 10px;
+        }
+    } 
+    
+
 
   
